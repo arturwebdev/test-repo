@@ -1,0 +1,28 @@
+.SinglePageInfo {
+    display: flex;
+    align-items: center;
+}
+
+.SinglePageInfo img {
+   width: 150px; 
+   border-radius: 50%;
+}
+
+.SinglePageInfo .userProfile {
+    flex-basis: 40%;
+}
+
+.SinglePageInfo .userInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.SinglePageInfo .userInfo .SinglePageUsername {
+    font-size: 35px;
+}
+
+.SinglePageInfo .userInfo .aboutFollows {
+    display: flex;
+    gap: 20px;
+}

@@ -1,0 +1,12 @@
+.ChatboxUsers {
+    flex-basis: 35%;
+}
+
+.ChatboxUsers .ChatboxUsersWrapper {
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 75vh;
+    overflow-y: scroll;
+}

@@ -1,0 +1,68 @@
+.ChatboxMessage {
+    height: 63vh;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.ChatboxMessageForm {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    border-radius: 30px;
+    border: 1px solid rgb(211, 211, 211);
+    padding: 13px;
+}
+
+.ChatboxMessageForm input {
+    border: none;
+}
+
+.ChatboxMessageForm input:focus {
+    outline: none;
+}
+
+.ChatboxMessageForm button {
+    background-color: transparent;
+    font-size: 14px;
+    border: none;
+    color: rgba(68, 160, 247);
+}
+
+.messageSelf {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 10px;
+} 
+
+
+.messageRemote {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+    margin: 5px 10px;
+}
+
+.messageRemote p {
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(232, 232, 232);
+    border-radius: 18px;
+    color: rgb(50, 50, 50);
+}
+
+.messageRemote img {
+    width: 25px;
+    border-radius: 50%;
+}
+
+.messageSelf img {
+    display: none;
+}
+
+.messageSelf p {
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(232, 232, 232);
+    border-radius: 18px;
+    color: rgb(50, 50, 50);
+}

@@ -1,0 +1,45 @@
+.AddPosts {
+    padding: 20px;
+    height: 70vh;
+}
+
+.AddPosts .AddPostsForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    background-color: rgba(215, 226, 241, 0.53);
+    border-radius: 5px;
+}
+
+.AddPosts .AddPostsForm input {
+    padding: 10px;
+    width: 50%;
+    border: none;
+    border-radius: 3px;
+    overflow: auto;
+}
+
+.AddPosts .AddPostsForm input:focus,
+.AddPosts .AddPostsForm textarea:focus {
+    outline: none;
+}
+
+.AddPosts .AddPostsForm textarea {
+    width: 50%;
+    resize: none;
+    border: none;
+    height: 100px;
+    padding: 10px;
+}
+
+.AddPosts .AddPostsForm .AddPostsButton {
+    padding: 7px;
+    width: 50%;
+    border: none;
+    background-color: rgb(30, 144, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+}

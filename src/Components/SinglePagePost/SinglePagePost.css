@@ -1,0 +1,14 @@
+.SinglePagePosts .imgWrapper {
+    position: relative;
+}
+
+.SinglePagePosts .imgWrapper img {
+    width: 270px;
+    height: 270px;
+}
+
+.SinglePagePosts .imgWrapper svg {
+    position: absolute;
+    right: 1%;
+    font-size: 20px;
+}

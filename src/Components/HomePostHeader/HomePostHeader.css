@@ -1,0 +1,26 @@
+.PostHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.PostHeader svg,
+.PostHeader .PostHeaderElements span {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.PostHeaderElements {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+} 
+
+.PostHeader .PostHeaderElements img {
+    border-radius: 50%;
+    padding: 2px;
+    border: 1.6px solid rgb(255, 0, 0);
+    cursor: pointer;
+}

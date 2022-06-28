@@ -1,0 +1,8 @@
+.PostContent {
+    overflow: hidden;
+}
+
+.PostContent img {
+    width: 470px;
+    cursor: pointer;
+}

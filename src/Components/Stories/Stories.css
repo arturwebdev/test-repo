@@ -1,0 +1,66 @@
+section {
+    margin-top: 30px;
+}
+
+section .container {
+    max-width: 470px;
+}
+
+section .Stories {
+    height: 112px;
+    display: flex;
+    overflow: hidden;
+    gap: 15px;
+    position: relative;
+    border: 1px solid rgb(211, 211, 211);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+
+section .Stories svg {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 21px;
+}
+
+section .Stories .slidePrev {
+    left: 18px;
+    top: 35%;
+    cursor: pointer;
+}
+
+section .Stories .slideNext {
+    right: 18px;
+    top: 35%;
+    cursor: pointer;
+}
+
+.Story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    text-overflow: ellipsis;
+}
+
+.Story img{
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+.Story span {
+    font-size: 12px;
+    color: rgb(77, 77, 77);
+    cursor: pointer;
+}
+
+.Prev {
+    transform: translateX(300px);
+}
+
+.Next {
+    transform: translateX(-300px);
+}

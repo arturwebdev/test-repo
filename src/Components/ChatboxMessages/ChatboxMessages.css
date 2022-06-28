@@ -1,0 +1,4 @@
+.ChatboxMessages {
+    border-left: 1px solid rgb(211, 211, 211);
+    flex-basis: 65%;
+}

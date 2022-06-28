@@ -1,0 +1,15 @@
+nav .container input {
+    padding: 10px;
+    border: none;
+    background-color: rgb(236, 236, 236);
+    border-radius: 8px;
+    flex-basis: 45%;
+}
+
+nav .container input:focus {
+    outline: none;
+}
+
+nav .container input::placeholder {
+    color: rgb(165, 164, 164);
+}

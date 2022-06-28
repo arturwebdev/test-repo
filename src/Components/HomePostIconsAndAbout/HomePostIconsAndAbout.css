@@ -1,0 +1,32 @@
+.HomePostIconsAndAbout {
+    display: flex;
+    flex-direction: column;
+}
+
+.HomePostIconsAndAbout .HomePostLikes {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.HomePostIconsAndAbout .HomePostAbout {
+    padding: 0 10px 10px;
+    font-size: 14px;
+}
+
+.HomePostIconsAndAbout .HomePostAbout p span {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.HomePostIconsAndAbout .HomePostLikes .HomePostLikesIcons {
+    flex-basis: 23%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.HomePostIconsAndAbout .HomePostLikes .HomePostLikesIcons svg,
+.HomePostIconsAndAbout .HomePostLikes svg {
+    font-size: 27px;
+    cursor: pointer;
+}

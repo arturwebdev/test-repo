@@ -1,0 +1,38 @@
+.PostMakeAComment {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-top: 1px solid rgb(211, 211, 211);
+}
+
+.PostMakeAComment svg {
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.PostMakeAComment form {
+    display: flex;
+    flex-basis: 93%;
+}
+
+.PostMakeAComment form button {
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+    color: rgba(68, 160, 247, 0.523);
+    cursor: pointer;
+}
+
+.PostMakeAComment form .active {
+    color: rgba(68, 160, 247);
+}
+
+.PostMakeAComment form input {
+    border: none;
+    flex-basis: 90%;
+    height: 100%;
+}
+
+.PostMakeAComment input:focus {
+    outline: none;
+}

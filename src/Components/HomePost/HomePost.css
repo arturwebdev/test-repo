@@ -1,0 +1,7 @@
+.Post {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(211, 211, 211);
+    max-width: 470px;
+    border-radius: 8px;
+}
